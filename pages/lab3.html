@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link href="../css/main_style.css" rel="stylesheet">
+        <title>Лаб 3</title>
+    </head>
+
+    <body>
+        <div class="content">
+            <header class="content_header">
+                <ul class="header_menu">
+                    <li>
+                        <a href="../index.html">
+                            Главная
+                        </a>
+                    </li>
+                    <li>
+                        <a href="school.html">
+                            Школа
+                        </a>
+                    </li>
+                    <li>
+                        <a href="university.html">
+                            Университет
+                        </a>
+                    </li>
+                    <li>
+                        <a href="academic-performance.html">
+                            Сведения об успеваемости
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            Контакты
+                        </a>
+                    </li>
+                    <li>
+                        <a href="others.html">
+                            Другое
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav_already">
+                            Лаб 3
+                        </a>
+                    </li>
+                </ul>
+            </header>
+            <div class="wrapper">
+                <div class="side_menu">
+                    <ul class="menu">
+                        <li>
+                            <a onclick="window.location.href='../index.html'">
+                                Главная
+                            </a>
+                        </li>
+                        <li>
+                            <a onclick="window.location.href='school.html'">
+                                Школа
+                            </a>
+                        </li>
+                        <li>
+                            <a onclick="window.location.href='university.html'">
+                                Университет
+                            </a>
+                        </li>
+                        <li>
+                            <a onclick="window.location.href='academic-performance.html'">
+                                Сведения об успеваемости
+                            </a>
+                        </li>
+                        <li>
+                            <a onclick="window.location.href='contact.html'">
+                                Контакты
+                            </a>
+                        </li>
+                        <li>
+                            <a onclick="window.location.href='others.html'">
+                                Разное
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav_already">
+                                Лаб 3
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="task_menu">
+                    <button id="btn_task1">
+                        Расчитать количество нечётных отрицательных элементов
+                    </button>
+                    <div id="array"></div>
+                    <div id="result"></div>   
+                    <br>
+                    <button id="btn_task2">
+                        Посчитать сколько дней осталось до летних каникул (3 июля)
+                    </button>
+                    <div id="result days left"></div>
+                    <br>
+                    <button>
+                        <a href="../pages/window.html"  target="_blank">Задание 3</a>
+                    </button>
+                    <br>
+                    <button onclick="sayGoodEvening()">
+                        Сколько раз пожелать вам доброго вечера?
+                    </button>
+                </div>
+            </div>
+            <div class="date-clock">
+                <div id="timer"></div>
+            </div>
+            <div class="date-clock">
+                <div id="clock"></div>
+                <div id="date"></div>
+            </div>
+        </div>
+        <script src="../js/task1.js"></script>
+        <script src="../js/task2.js"></script>
+        <script src="../js/task4.js"></script>
+        <script src="../js/timer.js"></script>
+        <script src="../js/date-clock.js"></script>
+    </body>
+</html>

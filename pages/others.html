@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link href="../css/main_style.css" rel="stylesheet">
+        <link href="../css/style_hashtag.css" rel="stylesheet">
+        <link href="../css/style_table.css" rel="stylesheet">
+        <title> Разное </title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <div class="content">
+            <header class="content_header">
+                <ul class="header_menu">
+                    <li>
+                        <a href="../index.html">
+                            Главная
+                        </a>
+                    </li>
+                    <li>
+                        <a href="school.html">
+                            Школа
+                        </a>
+                    </li>
+                    <li>
+                        <a href="university.html">
+                            Университет
+                        </a>
+                    </li>
+                    <li>
+                        <a href="academic-performance.html">
+                            Сведения об успеваемости
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            Контакты
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav_already">
+                            Другое
+                        </a>
+                    </li>
+                    <li>
+                        <a href="lab3.html">
+                            Лаб 3
+                        </a>
+                    </li>
+                </ul>
+            </header>
+            <div class="content_body">
+                <div id="scroll_bottom" class="button bottom" onClick="window.scrollTo(0, document.body.scrollHeight);">↓ Вниз</div>
+                <div id="scroll_top" class="button top" onClick="window.scrollTo(document.body.scrollHeight, 0);">↑ Вверх</div>
+                <div class="other">
+                    <h1 style="margin: 5px">Заголовок h1</h1>
+                    <h2 style="margin: 5px">Заголовок h2</h2>
+                    <h3 style="margin: 5px">Заголовок h3</h3>
+                    <h4 style="margin: 5px">Заголовок h4</h4>
+                    <h5 style="margin: 5px">Заголовок h5</h5>
+                    <h6 style="margin: 5px">Заголовок h6</h6>
+                    <br>
+                    <i>Курсив</i>
+                    <br>
+                    <b>Жирный</b>
+                    <br>
+                    <u>Подчеркнутый</u>
+                    <br>
+                    <p>Абзац
+                        <br>
+                        ↑ Разрыв строки
+                    </p>
+                    <h3 style="margin: 5px">Нумерованные списки</h3>
+                    <ol class="other_center">
+                        <li>Первый</li>
+                        <li>Второй</li>
+                        <li>Третий</li>
+                    </ol>
+                    <h3 style="margin: 5px">Маркированные списки</h3>
+                    <ul class="other_center">
+                        <li>Первый</li>
+                        <li>Второй</li>
+                        <li>Третий</li>
+                    </ul>
+                    <h3 style="margin: 5px">Список определений</h3>
+                    <dl class="other_center">
+                        <dt>Понедельник</dt>
+                        <dd>Первый день недели</dd>
+                        <dt>Вторник</dt>
+                        <dd>Второй день недели</dd>
+                    </dl>
+                    <h3 style="margin: 5px">Вложенные списки</h3>
+                    <ul class="other_center_list">
+                        <li> Покрытосеменные растения
+                            <ol>
+                                <li>Однодольные
+                                    <ul>
+                                        <li>Злавковые</li>
+                                        <li>Лилейные</li>
+                                    </ul>
+                                </li>
+                                <li>Двудольные
+                                    <ul>
+                                        <li>Крестоцветные</li>
+                                        <li>Пасленовые</li>
+                                        <li>Бобовые</li>
+                                        <li>Розоцветные</li>
+                                        <li>Сложноцветные</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="content-text">
+                        <div class="block-border-radius">
+                            <div class="inline-box" style="overflow: hidden;">
+                                <img src="../resources/tree.jpg" style="width: 500px; height: 400px;">
+                                <p style="text-align:center;">Абсолютная величина</p>
+                            </div>
+                            <div class="inline-box" style="overflow: hidden;">
+                                <img src="../resources/tree.jpg" style="width: 50%; height: 50%;">
+                                <p style="text-align:center;">Относительная величина</p>
+                            </div>
+                        </div>
+                        <div class="alignment">
+                            <p>Выравнивание</p>
+                            <img src="../resources/tree.jpg" style="width: 400; height: 400px;" align="left">
+                            <br>
+                            <img src="../resources/tree.jpg" style="width: 500px; height: 400px;" align="bottom">
+                        </div>
+                        <div class="block-border-radius">
+                            <p>Ссылка-картинка целиком</p>
+                            <a target="_blank" href="https://tusur.ru">
+                                <img src="../resources/tree.jpg" style="width: 500px; height: 400px;" vspace="10">
+                            </a>
+                            <p>Карта изображения</p>
+                            <img src="../resources/tree.jpg" style="width: 600px; height: 400px" vspace="10" usemap="#map">
+                            <map name="map">
+                                <area shape="rect" coords="0,0, 340,200.5" alt="Первая ссылка" target="_blank"
+                                    href="https://tusur.ru">
+                                <area shape="rect" coords="340,0, 300,300" alt="Вторая ссылка" target="_blank"
+                                    href="http://sch84.ru/">
+                                <area shape="rect" coords="301,601, 0,0" alt="Третья ссылка" target="_blank"
+                                    href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B5%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%D0%BE">
+                                <area shape="rect" coords="500,200, 400,400" alt="Четвертая ссылка" target="_blank"
+                                    href="https://vk.com/">
+                            </map>
+                        </div>
+                        <div class="block-border-radius">
+                            <table>
+                                <tr>
+                                    <td rowspan="3" colspan="2">
+                                        <img src="../resources/tree.jpg" style="width: 200px; height: 100px;">
+                                    </td>
+                                    <td>text1</td>
+                                </tr>
+                                <tr>
+                                    <td>text2</td>
+                                </tr>
+                                <tr>
+                                    <td>text3</td>
+                                </tr>
+                            </table>
+
+                            <table>
+                                <tr>
+                                    <td colspan="3">text</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img src="../resources/tree.jpg" style="width: 200px; height: 100px;">
+                                    </td>
+                                    <td>
+                                        <img src="../resources/tree.jpg" style="width: 200px; height: 100px;">
+                                    </td>
+                                    <td>
+                                        <img src="../resources/tree.jpg" style="width: 200px; height: 100px;">
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <table>
+                                <tr>
+                                    <td rowspan="3" colspan="2">
+                                        <table>
+                                            <tr></tr>
+                                            <tr>
+                                                <td>text</td>
+                                                <td>text</td>
+                                            </tr>
+                                            <tr>
+                                                <td>text</td>
+                                                <td>text</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td>text1</td>
+                                </tr>
+                                <tr>
+                                    <td>text2</td>
+                                </tr>
+                                <tr>
+                                    <td>text3</td>
+                                </tr>
+                            </table>
+
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img src="../resources/tree.jpg" style="width: 200px; height: 100px;">
+                                    </td>
+                                    <td>
+                                        <img src="../resources/tree.jpg" style="width: 200px; height: 100px;">
+                                    </td>
+                                    <td>
+                                        <img src="../resources/tree.jpg" style="width: 200px; height: 100px;">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">text</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr>
+                                    <td>text1</td>
+                                    <td rowspan="3" colspan="2">
+                                        <img src="../resources/tree.jpg" style="width: 200px; height: 100px;">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>text2</td>
+                                </tr>
+                                <tr>
+                                    <td>text3</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="date-clock">
+                <div id="timer"></div>
+            </div>
+            <div class="date-clock">
+                <div id="clock"></div>
+                <div id="date"></div>
+            </div>
+            
+        </div>
+        <script src="../js/timer.js"></script>
+        <script src="../js/date-clock.js"></script>
+    </body>
+</html>

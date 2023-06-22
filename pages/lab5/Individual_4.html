@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.min.js"></script>
+        <script>
+            $(document).ready(function () {
+            $("button").click(function () {
+            var links = $("p"); 
+            links.each(function (i, a) 
+            {
+                if ((i + 1) % 2 == 1) 
+                {
+                    $(links[i + 1]).text($(links[i]).text());
+                    $(links[i]).css('text-indent', '40px');
+                }
+            });
+            });
+            });
+        </script>
+    </head>
+    <body>
+        <button>Click me</button>
+        <p>paragraph 1</p>
+        <p>paragraph 2</p>
+        <p>paragraph 3</p>
+        <p>paragraph 4</p>
+        <p>paragraph 5</p>
+        <p>paragraph 6</p>
+    </body>
+</html>

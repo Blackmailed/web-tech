@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.min.js"></script>
+        <script>
+            $(document).ready(function () {
+            $("button").click(function () {
+                for (var i = 1; i <= 10; i++) 
+                {
+                    if (i % 2 == 0) 
+                    {
+                        $("#p" + i).fadeIn(2000);
+                    }
+                    else 
+                    {
+                        $("#p" + i).fadeOut(2000);
+                    }
+                }
+                for (var i = 1; i <= 10; i++) 
+                {
+                    $("#p" + i).fadeToggle(2000);
+                }
+            });
+            });
+        </script>
+    </head>
+    <body>
+        <button>Click me</button>
+        <p id="p1" style="display: none;">paragraph 1</p>
+        <p id="p2" style="display: none;">paragraph 2</p>
+        <p id="p3" style="display: none;">paragraph 3</p>
+        <p id="p4" style="display: none;">paragraph 4</p>
+        <p id="p5" style="display: none;">paragraph 5</p>
+        <p id="p6" style="display: none;">paragraph 6</p>
+        <p id="p7" style="display: none;">paragraph 7</p>
+        <p id="p8" style="display: none;">paragraph 8</p>
+        <p id="p9" style="display: none;">paragraph 9</p>
+        <p id="p10" style="display: none;">paragraph 10</p>
+    </body>
+</html> 

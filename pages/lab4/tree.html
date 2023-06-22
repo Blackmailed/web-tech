@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../../css/style_lab4.css">
+        <link rel="stylesheet" href="../../css/main_style.css">
+        <title>Дерево</title>
+    </head>
+
+    <body onload=generateTree(document.documentElement);>
+        <div class="content">
+            <header class="content_header">
+                <ul class="header_menu">
+                    <li>
+                        <a href="../lab4/menu.html">
+                            Меню
+                        </a>
+                    </li>
+                </ul>
+            </header>
+            <div id="tree_generation" class="content_body">
+                <h1>Начало дерева</h1>
+                    <div>Нулевой уровень
+                        <div class="test">
+                            <b>Первый уровень</b>
+                            <div class="test">
+                                <i>Второй уровень</i>
+                                <div class="test">
+                                    <u>Третий уровень</u>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <h1>Конец дерева</h1>
+                <br>
+                <hr />
+                <div id="tree"></div>
+            </div>
+        </div>
+        <script src="../../js/lab4/tree.js"></script>
+    </body>
+</html>

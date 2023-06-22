@@ -1,0 +1,208 @@
+.content {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 10px;
+    background-image:none;
+    margin-bottom: 20px;
+}
+
+.content .content_header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.side_menu {
+    background-color: bisque;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    width: 20%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side_menu li a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    transition: .5s all;
+}
+
+.menu{
+    list-style-type: none;
+}
+
+.side_menu li a:hover {
+    color: rgb(202, 12, 12);
+    transition: .5s all;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.task_menu
+{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: bisque;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 80%;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.date-clock {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+
+.header_menu li a:hover {
+    color: rgb(202, 12, 12);
+    transition: .5s all;
+}
+
+.button{
+    background-color: grey;
+    border-radius: 30px;
+    padding: 10px 10px;
+    color: white;
+    cursor: pointer;
+    position: fixed;
+    z-index: 9;
+}
+
+.button:hover {
+    background-color: rgb(202, 12, 12);
+}
+
+.content_body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 30px 0px;
+    position: relative;
+    flex-direction: column;
+}
+
+.about_me_photo .about_img {
+    width: 200px;
+    height: 300px;
+    border-radius: 25%;
+}
+
+.header_menu li {
+    text-decoration: none;
+    display: inline;
+    padding: 0px 40px;
+    font-size: 20px;
+}
+
+.nav_already {
+    color: rgb(236, 16, 16) !important;
+}
+
+.about_me li{
+    text-decoration: none;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.about ul {
+    text-decoration: none;
+}
+
+.about li {
+    font-weight:bold;
+}
+
+.about-contact{
+    text-transform:none;
+    font-weight:bold;
+    border-style: ridge;
+    border-width: medium thick;
+    border-color: rgb(240, 150, 150);
+    line-height:normal;
+    font-style:italic;
+}
+
+.about li a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: rgb(134, 19, 228);
+    transition: .5s all;
+    margin: 10px 5px;
+}
+
+.header_menu li a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    transition: .5s all;
+}
+
+.school_name{
+    font-weight:bold;
+}
+
+.block-border-radius {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-border-radius>* {
+    margin-top: 20px;
+}
+
+.inline-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alignment {
+    padding: 20px;
+    margin: 10px; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

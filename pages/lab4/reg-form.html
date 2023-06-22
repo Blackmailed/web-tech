@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../css/style_lab4.css">
+    <link rel="stylesheet" href="../../css/main_style.css">
+    <title>Регистрация</title>
+</head>
+
+<body>
+    <div class="content">
+        <header class="content_header">
+            <ul class="header_menu">
+                <li>
+                    <a href="../lab4/menu.html">
+                        Меню
+                    </a>
+                </li>
+            </ul>
+        </header>
+        <form name="regForm">
+            <div id="fields">
+                <fieldset>
+                    <legend>Контактная информация:</legend>
+                    <div>
+                        <label>Фамилия:<span>*</span> </label><input type="text" required name="lastname">
+                    </div>
+                    <div>
+                        <label>Имя:<span>*</span> </label><input type="text" required name="firstname">
+                    </div>
+                    <div>
+                        <label>Отчество:<span>*</span> </label><input type="text" required name="fathersname">
+                    </div>
+                    <div>
+                        <label>Пол:<span>*</span> </label><input type="text" required name="gender">
+                    </div>
+                    <div>
+                        <label>Адрес:<span>*</span> </label><input type="text" required name="address">
+                    </div>
+                    <div>
+                        <label>Дата рождения:<span>*</span> </label><input type="date" required name="birthday">
+                    </div>
+                    <div>
+                        <label>Место рождения:<span>*</span> </label><input type="text" required name="birthplace">
+                    </div>
+                    <div>
+                        <label>Гражданство:<span>*</span> </label><input type="text" required name="citizenship">
+                    </div>
+                    <div>
+                        <label>Статус:<span>*</span> </label><input type="text" required name="status">
+                    </div>
+                    <div>
+                        <label>Номер телефона:<span>*</span> </label><input type="text" required name="phonenumber">
+                    </div>
+                    <div>
+                        <label>Дополнительный номер телефона:</label><input type="text" required name="phonenumbertwo">
+                    </div>
+                    <div>
+                        <label>Электронная почта:<span>*</span> </label><input type="email" required name="email">
+                    </div>
+                    <div>
+                        <label>Дополнительная электронная почта:</label><input type="email" required name="emailtwo">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Пароль</legend>
+                    <div>
+                        <label>Пароль:<span>*</span> </label><input type="password" required name="password">
+                    </div>
+                    <div>
+                        <label>Повторите пароль:<span>*</span> </label><input type="password" required
+                            name="passwordtwo">
+                    </div>
+                </fieldset>
+                <input type="button" value="Отправить" onclick="reg()">
+            </div>
+        </form>
+    </div>
+    <script src="../../js/lab4/reg-form.js" type="text/javascript"></script>
+</body>
+
+</html>

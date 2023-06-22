@@ -1,0 +1,64 @@
+.table {
+    border: 1px solid black;
+}
+
+.table_body .content_body {
+    margin-top: 12px;
+}
+
+.table .content_header {
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+td {
+    text-align: left;
+    border: 2px solid black;
+    margin: 0px;
+    padding: 8px;
+}
+
+tr {
+    padding: 0px;
+    margin: 0px;
+    vertical-align: baseline;
+    border: 0;
+    display: table-row;
+}
+
+.content_footer {
+    margin-top: 70px;
+}
+
+.evaluations {
+    width: 100%;
+    max-width: 900px;
+    margin-bottom: 1%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.evaluations_table {
+    width: 100%;
+    max-width: auto;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.evaluations_table th {
+    border: 1px solid;
+    color: black;
+}
+
+.evaluations_table td {
+    border: 1px solid;
+    color: black;
+}
+
+.evaluations_green {
+    background-color: #c4efaa;
+}
+
+.evaluations_red {
+    background-color: #fe9d94;
+}
